@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="850.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="313.0" layoutY="46.0" prefHeight="67.0" prefWidth="574.0" text="University of Gugsi" textAlignment="CENTER" textFill="#3db860">
+         <font>
+            <Font name="System Bold" size="58.0" />
+         </font>
+      </Label>
+      <Button fx:id="L6btnfinish" layoutX="548.0" layoutY="780.0" mnemonicParsing="false" onAction="#proceed" prefHeight="31.0" prefWidth="105.0" text="Proceed" textAlignment="CENTER" textOverrun="CLIP" />
+      <Label fx:id="lblTopic" alignment="CENTER" layoutX="302.0" layoutY="161.0" prefHeight="36.0" prefWidth="618.0" text="Final Awards" textAlignment="CENTER" textFill="#a42020">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="592.0" prefHeight="31.0" prefWidth="96.0" text="DEGREE:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="638.0" prefHeight="31.0" prefWidth="151.0" text="DEGREE CLASS:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblaw1" layoutX="342.0" layoutY="592.0" prefHeight="31.0" prefWidth="269.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblaw2" layoutX="341.0" layoutY="638.0" prefHeight="31.0" prefWidth="313.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblaw3" alignment="CENTER" layoutX="22.0" layoutY="683.0" prefHeight="79.0" prefWidth="1156.0" textFill="#0f52ee">
+         <font>
+            <Font name="System Italic" size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="197.0" layoutY="445.0" prefHeight="31.0" prefWidth="105.0" text="LEVEL-06:-">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="197.0" layoutY="364.0" prefHeight="31.0" prefWidth="105.0" text="LEVEL-04:-">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="197.0" layoutY="404.0" prefHeight="31.0" prefWidth="105.0" text="LEVEL-05:-">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="326.0" layoutY="308.0" prefHeight="31.0" prefWidth="96.0" text="CREDITS">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="241.0" prefHeight="31.0" prefWidth="96.0" text="ID:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="241.0" prefHeight="31.0" prefWidth="96.0" text="NAME:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="482.0" layoutY="308.0" prefHeight="31.0" prefWidth="96.0" text="TOTAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="639.0" layoutY="308.0" prefHeight="31.0" prefWidth="96.0" text="MINIMUM">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="810.0" layoutY="308.0" prefHeight="31.0" prefWidth="142.0" text="RETAKE TOTAL">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="522.0" prefHeight="31.0" prefWidth="96.0" text="AVERAGE:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblawavg" layoutX="581.0" layoutY="522.0" prefHeight="31.0" prefWidth="105.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="522.0" prefHeight="31.0" prefWidth="96.0" text="CREDITS:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="811.0" layoutY="522.0" prefHeight="31.0" prefWidth="105.0" text="MINIMUM:-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblawmin" layoutX="916.0" layoutY="522.0" prefHeight="31.0" prefWidth="105.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblawcredit" layoutX="250.0" layoutY="522.0" prefHeight="31.0" prefWidth="105.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblawL4c" layoutX="326.0" layoutY="364.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL6c" layoutX="326.0" layoutY="445.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL5c" layoutX="326.0" layoutY="404.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL5t" layoutX="471.0" layoutY="410.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL6t" layoutX="471.0" layoutY="445.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL5m" layoutX="635.0" layoutY="412.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL6m" layoutX="635.0" layoutY="447.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL5r" layoutX="829.0" layoutY="412.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawL6r" layoutX="829.0" layoutY="447.0" prefHeight="31.0" prefWidth="105.0" />
+      <Label fx:id="lblawName" layoutX="275.0" layoutY="241.0" prefHeight="31.0" prefWidth="223.0" />
+      <Label fx:id="lblawId" layoutX="740.0" layoutY="241.0" prefHeight="31.0" prefWidth="223.0" />
+   </children>
+</AnchorPane>
